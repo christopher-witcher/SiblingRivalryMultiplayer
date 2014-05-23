@@ -1,0 +1,10 @@
+{
+  "name": "SiblingMultiplayer",
+  "version": "0.0.0",
+  "description": "SiblingMultiplayer",
+  "main": "server.js",
+  "author": {
+    "name": "christopher.witcher",
+    "email": ""
+  }
+}
