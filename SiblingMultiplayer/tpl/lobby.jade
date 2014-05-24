@@ -1,0 +1,22 @@
+﻿doctype
+html
+    head
+        title= "Sibling Rivalry"
+        script(src='/socket.io/socket.io.js')
+        script(src='/gameengine.js')
+        script(src='/gameboard.js')
+        script(src='/assetmgr.js')
+        script(src='/client.js')
+    body
+        h3 S. Lantz | T. Nunn | C. Witcher
+        canvas#world(tabindex='1', width=1250, height=600, style='border-radius:5px 5px; -moz-box-shadow: 10px 10px 5px #808080; 
+        -webkit-box-shadow: 10px 10px 5px #808080; box-shadow: 10px 10px 5px #808080; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border: 0; position: absolute; left: 0; top: 23px; z-index: 0; background: skyblue; background: -webkit-linear-gradient(top, skyblue 0%, #fff 100%); background: -linear-gradient(top, skyblue 0%, skyblue 100%); background: -moz-linear-gradient(top, skyblue 0%, #fff 100%);'
+        
+        #content(style='width: 800px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
+        .controls
+        | Name: 
+        b#name #{username}
+        br
+        input#field(style='width:350px;')
+
+        

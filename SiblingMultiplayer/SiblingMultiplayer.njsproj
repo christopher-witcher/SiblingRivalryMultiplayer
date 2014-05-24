@@ -30,7 +30,14 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="index.js" />
+    <Compile Include="public\assetmgr.js" />
+    <Compile Include="public\client.js" />
+    <Compile Include="public\gameboard.js" />
+    <Compile Include="public\gameengine.js" />
     <Compile Include="server.js" />
+    <Content Include="img\runboySprite.png" />
+    <Content Include="tpl\lobby.jade" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
     <Content Include="bin\ChangeConfig.ps1" />
@@ -42,6 +49,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="img\" />
+    <Folder Include="tpl\" />
+    <Folder Include="public\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>
